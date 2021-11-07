@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('<h1 style="color:Red;">********AWS Pipline using github Test - version-15!!*********</h1> \n');
+  res.send('<h1 style="color:Red;">********AWS Pipline using github Test - version-18!!*********</h1> \n');
 });
 
 app.listen(PORT, HOST);
